@@ -32,10 +32,15 @@ header {
     border-radius: 6px;
     height: 150px;
     display: flex;
-    flex-direction: column;
-    justify-content: center; /*vertical */
+    flex-direction: row;
+    justify-content: space-around; /*vertical */
     align-items: center; /*horizontal */
+}
 
+#profile-image {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
 }
 
 #principal {
@@ -69,13 +74,11 @@ footer {
     flex-direction: column;
     justify-content: center; /* vertical */
     align-items: center; /* horizontal */
-
 }
 
 footer p {
     font-size: 1.2rem;
     color:#ffffff;
-
 }
 
 footer a {
@@ -83,5 +86,7 @@ footer a {
     text-decoration: none;
     font-weight: 500;
 }
+
+
 
 
