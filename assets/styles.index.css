@@ -12,7 +12,7 @@
 }
 
 body {
-    background-color: #000;
+    background-color: #000000;
     font-family: "Silkscreen" , sans-serif;
     color: #000;
     padding: 10px;
@@ -58,6 +58,18 @@ aside{
     border-radius: 6px;
     height: 100%;
     width: 25%;
+}
+
+footer {
+    background-color: #cc7fff;
+    border-radius: 6px;
+    margin: 10px 0;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* vertical */
+    align-items: center; /* horizontal */
+
 }
 
 
