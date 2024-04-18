@@ -61,7 +61,7 @@ aside{
 }
 
 footer {
-    background-color: #cc7fff;
+    background-color: #bd5cfe;
     border-radius: 6px;
     margin: 10px 0;
     height: 100px;
@@ -70,6 +70,18 @@ footer {
     justify-content: center; /* vertical */
     align-items: center; /* horizontal */
 
+}
+
+footer p {
+    font-size: 1.2rem;
+    color:#ffffff;
+
+}
+
+footer a {
+    color:#000;
+    text-decoration: none;
+    font-weight: 500;
 }
 
 
