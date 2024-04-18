@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.parisienne-regular {
+    font-family: "Parisienne", cursive;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,5 +12,10 @@
 }
 
 body {
-    background-color: #8c3cc2;
+    background-color: #000000;
+    font-family: "parisienne-regular" , sans-serif;
+    color: #9d14ce
 }
+
+
+
